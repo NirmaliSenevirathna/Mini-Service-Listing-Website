@@ -42,7 +42,7 @@ Used to create custom footer without modifying the theme files.
 
 ---
 
-## How to Set Up
+## Installation
 
 ### 1. Download the project
 * Clone the repository or download and extract the ZIP file:
