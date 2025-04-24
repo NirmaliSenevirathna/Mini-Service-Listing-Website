@@ -44,6 +44,41 @@ Used to create custom footer without modifying the theme files.
 
 ## How to Set Up
 
+### 1. Download the project
+* Clone the repository or download and extract the ZIP file:
+```
+https://github.com/NirmaliSenevirathna/Mini-Service-Listing-Website.git
+
+```
+
+### 2. Move Project Files
+* Place the entire project folder in your web root (e.g., htdocs or public_html)
+
+### 3. Database Setup
+* Create a new MySQL database using phpMyAdmin or MySQL CLI
+* Import the provided .sql file:
+
+### 4. Configure Wordpress
+
+* Update database credentials
+```
+define('DB_NAME', 'your_database');
+define('DB_USER', 'your_username');
+define('DB_PASSWORD', 'your_password');
+define('DB_HOST', 'localhost');
+```
+### 5. Install Required Plugins
+   - Elementor Pro
+   - Advanced Custom Fields
+   - Elementor Header & Footer Builder
+
+### 6. Activate Theme
+* Go to Appearance → Themes
+* Activate the theme named Astra
+
+
+## Complete Setup Instructions
+
 1. Install a fresh WordPress environment.
 2. Copy the project files into your local WordPress setup (`wp-content`).
 3. Install and activate Astra theme.
@@ -53,10 +88,10 @@ Used to create custom footer without modifying the theme files.
    - Elementor Header & Footer Builder
 5. Customize Astra theme settings:
    Built the main site header and navigation menus customizing astra theme and adjusted site-wide colors and font weights in the Astra theme customizer to match the minimal and modern style of the site.
-5. built home page and single post page via Elementor theme builder.
-4. Import the ACF field group (if included as JSON).
-5. built **Service** via ACF plugin and add field group as Title, Description, Featured Image, Service Price and Service Categories. 
-8. Add services under **Services > Add New**, including title, featured image, description, price, and service category.
+6. built home page and single post page via Elementor theme builder.
+7. Import the ACF field group (if included as JSON).
+8. built **Service** via ACF plugin and add field group as Title, Description, Featured Image, Service Price and Service Categories. 
+9. Add services under **Services > Add New**, including title, featured image, description, price, and service category.
 
 ---
 
